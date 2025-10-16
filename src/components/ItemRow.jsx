@@ -26,7 +26,7 @@ export default function ItemRow({ item, deleteItem, setEditingItem }) {
         <button className="edit-btn" onClick={() => setEditingItem(item)}>
           ✏️ Edit
         </button>
-        <button className="delete-btn" onClick={() => deleteItem(item.id)}>
+        <button className="delete-btn" onClick={() => deleteItem(item._id)}>
           ❌ Delete
         </button>
       </td>

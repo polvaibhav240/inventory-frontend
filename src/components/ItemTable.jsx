@@ -15,7 +15,7 @@ export default function ItemTable({ items, deleteItem, setEditingItem }) {
         {items.length > 0 ? (
           items.map((i) => (
             <ItemRow
-              key={i.id}
+              key={i._id}
               item={i}
               deleteItem={deleteItem}
               setEditingItem={setEditingItem}
