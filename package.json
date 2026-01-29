@@ -33,4 +33,12 @@
       "last 1 safari version"
     ]
   }
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "lint": "react-scripts lint",
+  "eject": "react-scripts eject"
+}
+
 }
